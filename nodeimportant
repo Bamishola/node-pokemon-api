@@ -1,0 +1,40 @@
+a. compiler un serveur node : node nom_point_entree.js
+b. installer nodemon pour relancer le serveur automatiquement apres chaque modification: npm install nodemon --save-dev
+c. Ponit de terminason express : app.get('/chemin', (req, res)=>{corps de la methode})
+d. construction des reponse pour un format json : app.json(donnee)
+e. Middleware:
+  1. application: 
+  2. Router :
+  3. Traitement d'erreur : 
+  4. Integré : 
+  5. Tiers : tous les middle disponible en dependance exterieurs
+
+f. les requetes :
+  1.get : pour obtenir une ressource
+  2.post : ajouter une nouvelle ressource
+  3.put: mettre a jour une ressource existante
+  4.delete: pour supprimer un element dans la base
+
+g. La base de donnees sql:
+  1. XAMPP : permet de tourner une base de donnee sql dans notre post de travail
+  2.phpMyAdmin: permet de visualiser les informations de notre base de donnees
+  3.ORM (Object-Relational Mapping) : facilite l'interaction entre une apiRest et une base de donnees sql
+  4. ORM Sequelize
+
+
+h.deploiement:
+  1.Installer Git, heroku cli. Relier heroku cli a heroku : heroku login
+  2. les variables d'enironnement
+    - utiliser process.env.PORT pour recuperer dynamiquent le port attribue a notre API Rest en production
+    - Pas d'utilisation de nodemon en production
+    - Passer Express en production pour optimiser notre API Rest
+    - Ne pas utiliser les dependances de devellopement
+  3. les etapes pour mettre notre API sur Heroku
+    - git init 
+    - git add .
+    - git commit -m "First commit"
+    - heroku create
+
+
+
+
