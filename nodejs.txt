@@ -1,21 +1,6 @@
-// Node JS
-//1-
-// Se base sur le moteur v8 de google chrome pour fonctionner
-//Modele non-bloquant : 
-
-
-//Type d'application que peut faire node js
-// Un site web :deconseillé de developper un site web traditionneele avec node js
-
-// API Rest : Peut partager une meme api entre appliction web et site simple
-// Application en temps reel : communiquer rapidement entre le serveur et le frontend
-
-//Un script: petit programmer executable sur mon odinateur
-
-
-//2- Node.js et ECMAScript 6
-
-
-
-
-
+git init
+git add .
+git commit -m "Premier commit"
+git branch -m master main
+git remote add origin URL_DU_DEPOT
+git push -u origin main
