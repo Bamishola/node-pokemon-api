@@ -28,10 +28,10 @@ app.get('/', (req, res) => {
 
 
 //ajouter la gestion des erreurs
-// app.use(({res}) => {
-//     const message = `Impossible de trouver la ressource ! Vous pouver essayer une autre URL.`
-//     res.status(404).json({message})
-// })
+app.use(({res}) => {
+    const message = `Impossible de trouver la ressource ! Vous pouver essayer une autre URL.`
+    res.status(404).json({message})
+})
 
 
 app.listen(port, () => console.log(`Notre application est accessible a l'adresse http://localhost:${port}`))
