@@ -30,10 +30,26 @@ h.deploiement:
     - Passer Express en production pour optimiser notre API Rest
     - Ne pas utiliser les dependances de devellopement
   3. les etapes pour mettre notre API sur Heroku
-    - git init 
+    - git init
     - git add .
-    - git commit -m "First commit"
+    - git commit -m "Premier commit"
+    - git branch -m master main
+    - git remote add origin URL_DU_DEPOT
+    - git push -u origin main
+
     - heroku create
+
+    - git push heroku master // pour possuer notre api rest sur la plateforme heroku
+    - heroku open // pour accder a l'api sur la plateforme heroku
+
+    =========================================== vercel
+    npm install -g vercel
+    vercel login
+    
+
+  4. afficher le terminal de production
+    - heroku logs --tail
+
 
 
 
