@@ -19,12 +19,12 @@ app.get('/', (req, res) => {
 })
 
 //Ici nous placerons dos futurs point de terminaison.
-// require('./src/routes/findAllPokemons')(app)
-// require('./src/routes/findPokemonByPk')(app)
-// require('./src/routes/createPokemon')(app)
-// require('./src/routes/updatePokemon')(app)
-// require('./src/routes/deletePokemon')(app)
-// require('./src/routes/login')(app)
+require('./src/routes/findAllPokemons')(app)
+require('./src/routes/findPokemonByPk')(app)
+require('./src/routes/createPokemon')(app)
+require('./src/routes/updatePokemon')(app)
+require('./src/routes/deletePokemon')(app)
+require('./src/routes/login')(app)
 
 
 //ajouter la gestion des erreurs
