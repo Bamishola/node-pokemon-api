@@ -1,1 +1,9 @@
+CORS
+Access-Control-Allow-Origin****
+Access-Control-Allow-Headers
+Access-Control-Request-Method
 
+CORS et les requetes complexes : 
+
+Les requetes simples : GET, POST
+les requetes complexes: DELETE, UPDATE, PUT, PATCH
