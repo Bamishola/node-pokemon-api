@@ -8,9 +8,9 @@ const app = express()
 const port = process.env.PORT || 5000
 
 
-app
-    .use(favicon(__dirname + '/favicon.ico'))
-    .use(bodyParser.json())
+// app
+//     .use(favicon(__dirname + '/favicon.ico'))
+//     .use(bodyParser.json())
 
 sequelize.initDb()
 
