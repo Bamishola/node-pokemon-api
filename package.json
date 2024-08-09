@@ -4,7 +4,7 @@
   "description": "An API Rest to handle pokemons",
   "main": "app.js",
   "engines": {
-    "node": "22.x"
+    "node": "20.x"
   },
   "scripts": {
     "start": "node app.js",
